@@ -15,7 +15,9 @@ body {
     max-width: min(90%, 1300px);
     margin-inline: auto;
 }
-
+.mobile_footer{
+    display: none;
+}
 header {
     transform: none;
     z-index: 1111111111111111111111111111;
@@ -1401,4 +1403,28 @@ li>div>span {
         justify-content: center;
         align-items: center;
     }
+    
+    .mobile-footer {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        color: #ffffff;
+        background-color: #282828;
+        position: sticky;
+        bottom: 0;
+      }
+      .mobile-footer img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 4px solid #f99b31;
+      }
+      .mobile-contact {
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+      }
+
 }

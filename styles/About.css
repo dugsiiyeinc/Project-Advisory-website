@@ -862,10 +862,17 @@ li>div>span {
 
 }
 .buttom_footer{
-  display: none;
-    
+  display: flex;
+  background-color: #333333;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
 }
-
+.buttom_footer span{
+    font-size: 4px;
+    font-weight: 400;
+}
 
 .mobile_footer{
     display: none;
@@ -1066,5 +1073,30 @@ li>div>span {
  .mobile_footer{
         display: block;
         width: 100%;
+      }
+      .buttom_footer{
+        display: none;
+      }
+      .mobile-footer {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        color: #ffffff;
+        background-color: #282828;
+        position: sticky;
+        bottom: 0;
+      }
+      .mobile-footer img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 4px solid #f99b31;
+      }
+      .mobile-contact {
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
       }
 }
