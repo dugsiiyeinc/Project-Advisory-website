@@ -401,9 +401,7 @@ border-radius: 50%;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 padding: 8px 15px; 
 }
-ul li:first-of-type a{
-    background-color: #f99b31;
-}
+
 .next ul li a:hover {
     background-color: #f99b31;
     transition: 0.3s ease;
@@ -955,6 +953,8 @@ li>div>span {
         background-color: #282828;
         position: sticky;
         bottom: 0;
+        z-index: 2000;
+        
       }
       .mobile-footer img {
         width: 60px;

@@ -120,7 +120,6 @@ a{
 .mobile-menu {
     display: none;
     flex-direction: column;
-
     gap: 0.625rem;
     background-color: #f99731;
     height: auto;
@@ -234,9 +233,7 @@ border-radius: 50%;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 padding: 8px 15px; 
 }
-ul li:first-of-type a{
-    background-color: #f99b31;
-}
+
 .next ul li a:hover {
     background-color: #f99b31;
     transition: 0.3s ease;
@@ -962,4 +959,5 @@ li>div>span {
     }
 
 }
+
 
