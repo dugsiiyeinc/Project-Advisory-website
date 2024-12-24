@@ -32,11 +32,12 @@ Together, we worked to create something that stands out and meets modern web sta
 
 ## 📸 Screenshots and Previews
 
-[text](README.md) ![text](Assets/Home-page.png) ![text](<Assets/image-removebg-preview (1).png>) ![text](Assets/menu.png) ![text](Assets/mobile-respon.png) ![text](Assets/table.PNG) ![text](Assets/tb2.jpg)
-
+![alt text](Assets/Home-page.png)
 -----------------------------------
-
-
+## 📸 Tablet Responsive
+![alt text](Assets/table.PNG) ![alt text](Assets/tb2.jpg)
+## 📸 Mobile Responsive
+![alt text](Assets/mobile-respon.png) ![alt text](Assets/menu.png)
 ## 📬 Feedback & Support
 
 We’d love to hear your feedback! Reach out to us for support or suggestions:
