@@ -42,7 +42,7 @@ Together, we worked to create something that stands out and meets modern web sta
 
 We’d love to hear your feedback! Reach out to us for support or suggestions:
 
-📧 Email: [Abdikadirhassan2015@gmail.com](devabdulla252@gmail.com)
+📧 Email: [Abdikadirhassan2015@gmail.com] [devabdulla252@gmail.com]
 
 -----------------------------------
 
