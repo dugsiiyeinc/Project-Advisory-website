@@ -1304,6 +1304,9 @@ li>div>span {
     font-weight: 400;
     color: #ffffff;
 }
+.mobile-footer{
+    display: none;
+}
 @media(max-width: 767px){
     .humbergur {
         display: block;

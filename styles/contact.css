@@ -14,8 +14,8 @@ img {
 }
 
 .container {
-    width: min(90%,1300px);
-    margin-inline:auto;
+    max-width: min(90%, 1300px);
+    margin-inline: auto;
 }
 header {
     transform: none;
@@ -998,16 +998,23 @@ li>div>span {
        margin-top: 50px;
     }
     
-    .mobile-footer {
+      .mobile-footer {
         display:flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
         width: 100%;
+      
         color: #ffffff;
         background-color: #282828;
         position: sticky;
         bottom: 0;
+      }
+      .mobile-footer {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
       }
       .mobile-footer img {
         width: 60px;

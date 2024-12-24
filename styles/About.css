@@ -870,7 +870,7 @@ li>div>span {
   color: #ffffff;
 }
 .buttom_footer span{
-    font-size: 4px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -885,6 +885,9 @@ li>div>span {
     font-size: 14px;
     font-weight: 400;
     color: #ffffff;
+}
+.mobile-footer{
+    display: none;
 }
 @media(max-width: 767px){
     .humbergur {
