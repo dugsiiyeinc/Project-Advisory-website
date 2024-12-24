@@ -35,7 +35,7 @@ Together, we worked to create something that stands out and meets modern web sta
 ![alt text](Assets/Home-page.png)
 -----------------------------------
 ## 📸 Tablet Responsive
-![alt text](Assets/table.PNG) ![alt text](Assets/tb2.jpg)
+![alt text](Assets/table.PNG)
 ## 📸 Mobile Responsive
 ![alt text](Assets/mobile-respon.png) ![alt text](Assets/menu.png)
 ## 📬 Feedback & Support
