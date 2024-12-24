@@ -32,7 +32,7 @@ Together, we worked to create something that stands out and meets modern web sta
 
 ## 📸 Screenshots and Previews
 
-![alt text](Home-page.png)![alt text](menu.png) ![alt text](table.PNG) ![alt text](mobile-respon.png)![alt text](tb2.jpg)
+![alt text](Home-page.png)![alt text](menu.png) ![alt text](table.PNG) ![alt text](mobile-respon.png)! ![alt text](Assets/tb2.jpg)
 
 -----------------------------------
 
