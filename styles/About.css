@@ -912,6 +912,8 @@ li>div>span {
         justify-content: center;
         align-items: center;
         text-align: center;
+        position: fixed;
+        width: 100%;
     }
 
     .mobile-menu {
@@ -950,6 +952,7 @@ li>div>span {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
     .info_footer_middle .info_middle{
         flex-direction: column;
@@ -985,6 +988,7 @@ li>div>span {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
         
     }
 
@@ -994,6 +998,9 @@ li>div>span {
         align-items: center;
         width: 100%;
         
+    }
+    .part_two{
+        width: 100%;
     }
     .part_two .elementor-element-populated{
         margin: 0;
@@ -1016,6 +1023,7 @@ li>div>span {
     }
     .particles-js-canvas-el {
         height: 100%;
+        width: 100%;
     }
     .particles-js-canvas-el .what_we_done {
       flex-direction: column;
@@ -1031,6 +1039,7 @@ li>div>span {
         width: 100%;
 
     }
+
     .About_advisors .right_advisor{
         display: flex;
         flex-direction: column;
@@ -1053,6 +1062,7 @@ li>div>span {
     .happy_clients_info{
         flex-direction: column;
         height: 100%;
+        width: 100%;
     }
     .About_Testimonials .testmonial_info{
         width: 100%;
@@ -1065,6 +1075,7 @@ li>div>span {
     }
     .About_Testimonials .queto{
         grid-template-columns: 1fr;
+        width: 100%;
     }
     .About_Testimonials .queto .info-queto{
         width: 400px;

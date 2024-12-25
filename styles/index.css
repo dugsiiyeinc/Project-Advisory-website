@@ -181,7 +181,7 @@ a{
 }
 
 .hero {
-    height: 100vh;
+    height: calc(100vh - 4rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,24 +244,14 @@ a{
     font-size: 1rem;
 }
 
-.inside-hero {
-    margin-top: - 100px;
-    display: flex;
-    gap: 2rem;
-    width: 100%;
-    padding: 0.625rem;
-    justify-content: center;
-    align-items: center;
 
-}
 
 .hero-info {
     display: flex;
     gap: 2rem;
     height: 200px;
     width: 100%;
-    position: absolute;
-
+    margin-top: -150px;
 }
 
 .hero-info .left-side {
@@ -296,7 +286,6 @@ a{
     border-radius: 7px;
     height: 100%;
     display: flex;
-
     width: 100%;
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, .15);
 }
@@ -337,7 +326,7 @@ a{
 }
 
 .hero-info .right-side .left-right p {
-    font-size: 26px;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 42px;
     color: #ffffff;
@@ -376,8 +365,8 @@ a{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    width: 70%;
-    margin-top: 9rem;
+    width: 100%;
+    margin-top: 2rem;
 }
 
 .About-home img {
@@ -1307,6 +1296,9 @@ li>div>span {
 .mobile-footer{
     display: none;
 }
+
+
+
 @media(max-width: 767px){
     .humbergur {
         display: block;
@@ -1323,6 +1315,7 @@ li>div>span {
         left: 0%;
         position: fixed;
         padding: 0.625rem;
+        
     }
 
     header {
@@ -1331,6 +1324,7 @@ li>div>span {
         align-items: center;
         text-align: center;
         width: 100%;
+        position: fixed;
     }
 
     .mobile-menu {
@@ -1355,31 +1349,28 @@ li>div>span {
 
     .hero {
         height: 100vh;
-        width: 100%;
         z-index: -1;
-
-    }
-
-    .inside-hero {
-        flex-direction: column;
         width: 100%;
-        margin-top: 22rem;
-
+        
     }
+
 
     .hero-info {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin: 0;
 
     }
-
+    .hero .content{
+        width: 100%;
+    }
     .hero-info .left-side {
         width: 100%;
         margin: 0;
         padding: 60px;
-        height: 600px;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1405,7 +1396,9 @@ li>div>span {
     }
 
     .About-home {
-        margin-top: 300px;
+        width: 100%;
+        height: 100%;
+        gap: 5rem;
     }
 
     .service-info {
@@ -1413,7 +1406,7 @@ li>div>span {
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 390px;
+        width: 100%;
         gap: 3rem;
     }
 
@@ -1427,6 +1420,7 @@ li>div>span {
         padding: 2rem;
         margin-bottom: 2rem;
         gap: 0.625rem;
+        width: 100%;
     }
     .result{
         flex-direction: column;
@@ -1436,11 +1430,13 @@ li>div>span {
         margin-top: 0;
         text-align: center;
         margin-left: 0;
-        height: 100vh;
+        height: 100%;
+        width: 100%;
     }
     .result .right-result{
         flex-direction: column;
         gap: 0.625rem;
+        width: 100%;
     }
     
     .result .left-result span{
@@ -1449,6 +1445,7 @@ li>div>span {
     .our-work{
         flex-direction: column;
         text-align: center;
+        width: 100%;
     }
     .info-work{
         width: 100%;
@@ -1465,6 +1462,7 @@ li>div>span {
         justify-content: center;
         align-items: center;
         padding: 10px;
+        width: 100%;
     }
     .lets_talk .right-talk{
         flex-direction: column;
